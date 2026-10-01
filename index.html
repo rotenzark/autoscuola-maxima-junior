@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
 <script>(function(){var r=document.documentElement;r.classList.remove('no-js');
 /* la firma: finché main.js non parte il pomello è in folle; se il codice non arriva, dopo 2,5 s va allo stato finale */
 try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add('firma-attesa');window.__attesaCambio=setTimeout(function(){r.classList.remove('firma-attesa')},2500)}}catch(e){}})()</script>
@@ -20,15 +21,74 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,500;0,700;1,600;1,700;1,800&amp;family=Bai+Jamjuree:wght@400;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fonts/fonts.css?v=1">
 <link rel="stylesheet" href="css/styles.css?v=1">
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
 <script src="js/main.js?v=1" defer></script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":["LocalBusiness","DrivingSchool"],"name":"Autoscuola Maxima Junior","legalName":"Autoscuola Maxima Junior Sas di Incarbone Gioacchino e C.","vatID":"IT10782420151","description":"Autoscuola in Via dei Biancospini 14 a Milano: patente B e moto, rinnovi e corsi di recupero punti.","url":"https://rotenzark.github.io/autoscuola-maxima-junior/","image":"https://rotenzark.github.io/autoscuola-maxima-junior/img/og.jpg","telephone":"+39 375 521 9329","address":{"@type":"PostalAddress","streetAddress":"Via dei Biancospini 14","postalCode":"20146","addressLocality":"Milano","addressRegion":"MI","addressCountry":"IT"},"geo":{"@type":"GeoCoordinates","latitude":45.44912,"longitude":9.14036},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"10:00","closes":"12:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"15:00","closes":"19:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"10:00","closes":"12:00"}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"64","bestRating":"5"},"sameAs":["https://www.instagram.com/autoscuolamaximajunior/"]}
+{
+  "@context": "https://schema.org",
+  "@type": [
+    "LocalBusiness",
+    "DrivingSchool"
+  ],
+  "name": "Autoscuola Maxima Junior",
+  "legalName": "Autoscuola Maxima Junior Sas di Incarbone Gioacchino e C.",
+  "vatID": "IT10782420151",
+  "description": "Autoscuola in Via dei Biancospini 14 a Milano: patente B e moto, rinnovi e corsi di recupero punti.",
+  "url": "https://rotenzark.github.io/autoscuola-maxima-junior/",
+  "image": "https://rotenzark.github.io/autoscuola-maxima-junior/img/og.jpg",
+  "telephone": "+39 375 521 9329",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Via dei Biancospini 14",
+    "postalCode": "20146",
+    "addressLocality": "Milano",
+    "addressRegion": "MI",
+    "addressCountry": "IT"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 45.44912,
+    "longitude": 9.14036
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "10:00",
+      "closes": "12:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "15:00",
+      "closes": "19:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "10:00",
+      "closes": "12:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/autoscuolamaximajunior/"
+  ]
+}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
@@ -173,7 +233,7 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
     <h2 id="rimeT" class="capitolo__titolo" data-i18n="r.titolo">Il codice, con le rime</h2>
     <div class="rime">
       <blockquote class="citazione reveal">
-        <p class="citazione__testo">«Ti insegnano di tutto e di più con canzoni così riesci a memorizzare alla perfezione!»</p>
+        <p lang="it" class="citazione__testo">«Ti insegnano di tutto e di più con canzoni così riesci a memorizzare alla perfezione!»</p>
         <p class="citazione__chi"><b>Sonia L.</b> <span data-i18n="r.chi">su Google: ha fatto la patente B da loro</span></p>
       </blockquote>
       <div class="rime__testo reveal">
@@ -202,12 +262,12 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
     <h2 id="diconoT" class="capitolo__titolo" data-i18n="d.titolo">Al primo tentativo, e senza ansia</h2>
     <p class="voto voto--centro"><b class="voto__n">4,9</b> <span class="stelle" aria-hidden="true" style="--voto:.98"></span> <span class="voto__su" data-i18n="d.voto">su Google, 64 recensioni</span></p>
     <ul class="recensioni">
-      <li class="recensione reveal"><p class="recensione__testo">«Scuola guida davvero consigliata, sono tutti molto disponibili, gentili, professionali e aperti a risolvere ogni problema. All'inizio ero molto spaventata, ma mi hanno accompagnato passo passo e specialmente Vincenzo e Giancarlo sono stati estremamente d'aiuto. Hanno reso tutto il processo molto più rassicurante.»</p><p class="recensione__chi"><b>Valentina Sprio</b> <span data-i18n="d.m3">Google, 3 mesi fa</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«Sono molto soddisfatto della mia esperienza presso l’autoscuola Maxima Junior. Personale professionale e con tantissima esperienza; mi hanno seguito attentamente nel mio percorso e grazie ai loro insegnamenti e consigli sono riuscito a superare sia scritto che prova pratica al primo tentativo. Lo consiglio vivamente!»</p><p class="recensione__chi"><b>Andrei Tratsiakou</b> <span data-i18n="d.m2">Google, 2 mesi fa</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«Mi sono trovata molto bene con questa scuola guida per il conseguimento della patente B. Sono stati sempre presenti e disponibili, seguendomi con attenzione in tutte le fasi del percorso. Un ringraziamento particolare a Giancarlo: è un istruttore paziente, preparato e mi ha aiutata molto a sentirmi a mio agio alla guida. Consigliata.»</p><p class="recensione__chi"><b>Sofia Dimitri</b> <span data-i18n="d.m3">Google, 3 mesi fa</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«Prima di iscrivermi ho girato diverse scuole a chiedere il preventivo e la disponibilità. Ho scelto la Maxima per la loro disponibilità di sabato […]. Mi sono trovata benissimo sia nella fase di teoria che pratica. Mi riscriverei ancora!! […] Mi mancherà il duetto con Gioacchino!»</p><p class="recensione__chi"><b>Miyuki Okayama</b> <span data-i18n="d.a3">Google, 3 anni fa</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«Gioacchino è il migliore insegnate! Molto divertente e preciso, ti fa imparare tutto con rime e canzoni. Mi mancano le lezioni serali. Anche alla guida è bravissimo. Scuola consigliata e patente fatta!»</p><p class="recensione__chi"><b>Tania Cuellar</b> <span data-i18n="d.a9">Google, 9 anni fa</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«Mi son trovato benissimo, tutti super disponibili, accoglienti e simpatici, professionali al punto giusto, mi hanno fatto sentire parte della famiglia, a mio agio in ogni momento; gli istruttori sono persone fantastiche: capaci, coinvolgenti e di piacevole compagnia. […]»</p><p class="recensione__chi"><b>Leonardo Riva</b> <span data-i18n="d.a5">Google, 5 anni fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Scuola guida davvero consigliata, sono tutti molto disponibili, gentili, professionali e aperti a risolvere ogni problema. All'inizio ero molto spaventata, ma mi hanno accompagnato passo passo e specialmente Vincenzo e Giancarlo sono stati estremamente d'aiuto. Hanno reso tutto il processo molto più rassicurante.»</p><p class="recensione__chi"><b>Valentina Sprio</b> <span data-i18n="d.m3">Google, 3 mesi fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Sono molto soddisfatto della mia esperienza presso l’autoscuola Maxima Junior. Personale professionale e con tantissima esperienza; mi hanno seguito attentamente nel mio percorso e grazie ai loro insegnamenti e consigli sono riuscito a superare sia scritto che prova pratica al primo tentativo. Lo consiglio vivamente!»</p><p class="recensione__chi"><b>Andrei Tratsiakou</b> <span data-i18n="d.m2">Google, 2 mesi fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Mi sono trovata molto bene con questa scuola guida per il conseguimento della patente B. Sono stati sempre presenti e disponibili, seguendomi con attenzione in tutte le fasi del percorso. Un ringraziamento particolare a Giancarlo: è un istruttore paziente, preparato e mi ha aiutata molto a sentirmi a mio agio alla guida. Consigliata.»</p><p class="recensione__chi"><b>Sofia Dimitri</b> <span data-i18n="d.m3">Google, 3 mesi fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Prima di iscrivermi ho girato diverse scuole a chiedere il preventivo e la disponibilità. Ho scelto la Maxima per la loro disponibilità di sabato […]. Mi sono trovata benissimo sia nella fase di teoria che pratica. Mi riscriverei ancora!! […] Mi mancherà il duetto con Gioacchino!»</p><p class="recensione__chi"><b>Miyuki Okayama</b> <span data-i18n="d.a3">Google, 3 anni fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Gioacchino è il migliore insegnate! Molto divertente e preciso, ti fa imparare tutto con rime e canzoni. Mi mancano le lezioni serali. Anche alla guida è bravissimo. Scuola consigliata e patente fatta!»</p><p class="recensione__chi"><b>Tania Cuellar</b> <span data-i18n="d.a9">Google, 9 anni fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Mi son trovato benissimo, tutti super disponibili, accoglienti e simpatici, professionali al punto giusto, mi hanno fatto sentire parte della famiglia, a mio agio in ogni momento; gli istruttori sono persone fantastiche: capaci, coinvolgenti e di piacevole compagnia. […]»</p><p class="recensione__chi"><b>Leonardo Riva</b> <span data-i18n="d.a5">Google, 5 anni fa</span></p></li>
     </ul>
     <p class="dicono__nota"><span data-i18n="d.nota">Dalle recensioni su Google, come sono state scritte; i tagli sono segnati […]. La frase su «Le rime» è di un'altra allieva.</span> <a href="https://www.google.com/maps/search/?api=1&amp;query=Autoscuola+Maxima+Junior%2C+Via+dei+Biancospini+14%2C+Milano" target="_blank" rel="noopener" data-i18n="d.tutte">Tutte le recensioni su Google</a></p>
   </section>
@@ -247,7 +307,7 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
       </div>
       <div class="orari__dove">
         <div class="mappa reveal">
-          <iframe title="Mappa: Autoscuola Maxima Junior, Via dei Biancospini 14, Milano" data-i18n-title="o.mappa" src="https://maps.google.com/maps?q=Autoscuola%20Maxima%20Junior%2C%20Via%20dei%20Biancospini%2014%2C%20Milano&amp;z=16&amp;output=embed" width="600" height="420" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="mappa-clic" data-mappa-clic style="--mappa-h: 420px"><template><iframe title="Mappa: Autoscuola Maxima Junior, Via dei Biancospini 14, Milano" data-i18n-title="o.mappa" src="https://maps.google.com/maps?q=Autoscuola%20Maxima%20Junior%2C%20Via%20dei%20Biancospini%2014%2C%20Milano&amp;z=16&amp;output=embed" width="600" height="420" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></template><div class="mappa-clic__velo"><a class="mappa-clic__btn" href="https://www.google.com/maps/search/?api=1&amp;query=Autoscuola+Maxima+Junior%2C+Via+dei+Biancospini+14%2C+Milano" target="_blank" rel="noopener">Mostra la mappa</a><p class="mappa-clic__nota">La mappa è di Google: aprendola, Google riceve il tuo indirizzo IP e può usare i suoi cookie.</p></div></div>
         </div>
         <p class="orari__azioni"><a class="bottone bottone--pieno" id="waOrari" href="https://wa.me/393755219329" target="_blank" rel="noopener" data-i18n="h.scrivi">Scrivi su WhatsApp</a> <a class="bottone" href="https://www.google.com/maps/dir/?api=1&amp;destination=Autoscuola+Maxima+Junior%2C+Via+dei+Biancospini+14%2C+Milano" target="_blank" rel="noopener" data-i18n="o.indicazioni">Indicazioni</a></p>
       </div>
@@ -275,7 +335,7 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
     <p class="piede__dove">Via dei Biancospini 14, 20146 Milano · <a href="tel:+393755219329" class="intero">375 521 9329</a> · <a id="waPiede" href="https://wa.me/393755219329" target="_blank" rel="noopener">WhatsApp</a> · <a href="https://www.instagram.com/autoscuolamaximajunior/" target="_blank" rel="noopener">Instagram</a></p>
     <p class="piede__orario" data-i18n="f.orario">Lunedì–venerdì 10–12 e 15–19 · sabato 10–12</p>
     <p class="piede__legale">Autoscuola Maxima Junior Sas di Incarbone Gioacchino e C. · P.IVA 10782420151</p>
-    <p class="piede__cred" data-i18n="f.cred">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · la foto è loro, dalla scheda Google; orari e recensioni da Google, le patenti dalle recensioni, da Instagram e da PagineGialle (settembre 2026). Il cambio l'abbiamo disegnato noi, dal cerchio del loro cartello.</p>
+    <p class="piede__cred" data-i18n="f.cred">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · <a href="privacy.html">Privacy</a> · la foto è loro, dalla scheda Google; orari e recensioni da Google, le patenti dalle recensioni, da Instagram e da PagineGialle (settembre 2026). Il cambio l'abbiamo disegnato noi, dal cerchio del loro cartello.</p>
     <p><a class="piede__su" href="#inizio" data-i18n="f.su">Torna su ↑</a></p>
   </div>
 </footer>
@@ -290,5 +350,6 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
   <img id="lightboxImg" src="" alt="">
 </div>
 
+<script src="js/mappa-clic.js?v=1" defer></script>
 </body>
 </html>
